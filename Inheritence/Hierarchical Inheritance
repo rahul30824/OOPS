@@ -1,0 +1,40 @@
+class Animal{
+    void display()
+    {
+        System.out.println("1");
+    }
+}
+class Lion extends Animal{
+    void display()
+    {
+      System.out.println("2");   
+    }
+    
+}
+class Tiger extends Animal{
+void display()
+{
+    System.out.println("3"); 
+}
+}
+class Jaguar extends Animal{
+    void display()
+    {
+        System.out.println("4"); 
+    }
+    
+}
+class Main{
+    public static void main(String[] args)
+    {
+       Animal Ani=new Animal();
+       Ani.display();
+       Lion lion =new Lion();
+       lion.display();
+       Tiger tig=new Tiger();
+       tig.display();
+       Jaguar jag=new Jaguar();
+       jag.display();
+       
+    }
+}
